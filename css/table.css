@@ -1,0 +1,102 @@
+.staff-container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    color: #333;
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+thead {
+    background: rgba(201, 182, 83, 0.5);
+    padding: 10px;
+    text-align: left;
+    color: var(--grey);
+
+}
+
+th,
+td {
+    
+    padding: 10px;
+    text-align: left;
+}
+
+thead>tr>th:first-child {
+    border-radius: 15px 0 0 15px;
+}
+
+thead>tr>th:last-child {
+    border-radius: 0 15px 15px 0;
+}
+
+td {
+    border-bottom: 1px solid grey;
+    padding: 10px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    /* Space between icons */
+
+}
+
+.header-container button {
+    border: none;
+}
+
+
+.search-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 250px; /* Adjust width as needed */
+}
+
+.search_keyword {
+    width: 100%;
+    padding: 8px 40px 8px 10px; /* Make space for the button */
+    border: 1px solid #ccc;
+    border-radius: 20px; /* Rounded corners */
+    outline: none;
+}
+
+#searchButton {
+    position: absolute;
+    right: 5px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+#searchButton img {
+    width: 20px; /* Adjust icon size */
+    height: 20px;
+}
+.alert.success {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+/* In your report.css or style section */
+.completed-icon {
+    color: green;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-left: 8px;
+}

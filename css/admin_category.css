@@ -1,0 +1,22 @@
+.form-row{
+    display: grid;
+    grid-template-columns: auto ;
+  
+}
+.form-row input[type=text]{
+    width:50%;
+}
+.form-row input[type=submit]{
+    width:10%;
+}
+input[type="file"]{
+    border:none;
+}
+
+.alert.success {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}

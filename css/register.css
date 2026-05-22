@@ -1,0 +1,55 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    /* Space between icons */
+
+}
+
+.header-container button {
+    border: none;
+}
+
+
+.search-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 250px; /* Adjust width as needed */
+}
+
+.search_keyword {
+    width: 100%;
+    padding: 8px 40px 8px 10px; /* Make space for the button */
+    border: 1px solid #ccc;
+    border-radius: 20px; /* Rounded corners */
+    outline: none;
+}
+
+#searchButton {
+    position: absolute;
+    right: 5px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+#searchButton img {
+    width: 20px; /* Adjust icon size */
+    height: 20px;
+}
+.profile-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-form label {
+    margin: 10px 0 5px;
+}
+
+.profile-form input,
+.profile-form select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

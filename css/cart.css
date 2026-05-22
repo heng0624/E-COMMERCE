@@ -1,0 +1,121 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+
+/* Shopping Cart */
+main {
+    width: 80%;
+    margin: 20px auto;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.details {
+    flex-grow: 1;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.discounted-price {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+
+
+.quantity-input {
+    width: 40px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.total-price {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Cart Summary */
+.cart-summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.checkout , button {
+    background-color: gold;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius:25px;
+}
+
+#total-price{
+    color:burlywood;
+
+}
+
+/* make the button left sides */
+.checkout-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.checkout {
+    width: 200px; /* or 100% if you want full-width */
+    margin:10px;
+}
+
+
+.alert.success {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}

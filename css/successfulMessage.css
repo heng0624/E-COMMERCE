@@ -1,0 +1,40 @@
+/* successful message */
+.success-message {
+    position: fixed;
+    top: -100px; /* Initially off-screen */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transition: top 1s ease-out, opacity 1s ease-in;
+}
+
+.success-message.show {
+    top: 40%; /* Move to center */
+    opacity: 1;
+}
+
+.success-message.hide {
+    top: -100px; /* Move back up */
+    opacity: 0;
+    transition: top 1s ease-in, opacity 1s ease-out;
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: white;
+    color: #4CAF50;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: #ddd;
+}
